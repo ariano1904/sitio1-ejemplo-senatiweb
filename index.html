@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>sitio web privado</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min-css">
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+	<link rel="stylesheet" href="css/final.css">
+	<link rel="stylesheet" href="css/mediaFinal.css">
+	<script type="text/javascript" src="js/jquery.min.js" charset="UTF-8"></script>
+
+	<script src="js/jquery-latest.js"></script>
+	<script src="js/arriba.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/fonts.css">
+
+
+	<script>
+		$(function(){
+
+			$('a[href*=#]').click(function() {
+
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+				&& location.hostname == this.hostname) {
+
+				var $target = $(this.hash);
+
+			    $target = $target.length && $target || $('[name=' + this.hash.slice(1) +']');
+
+			    if ($target.length) {
+
+			    	var targetOffset = $target.offset().top;
+
+			    	$('html,body').animate({scrollTop: targetOffset}, 1000);
+			    	return false;
+			    }
+			}
+		});
+	});
+	</script>
+
+</head>
+<body id="arriba">
+
+	<span class="ir-arriba icon-arrow-up"></span>
+
+<section class="parallax" id="seccion1">	
+	<div class="top-bar">
+		
+		<div class="logo">El palacio del pan</div>
+		<div class="menu">
+			<ul>
+				<li><a href="#seccion1">Inicio</a></li>
+				<li><a href="#seccion2">Nosotros</a></li>
+				<li><a href="#seccion3">Servicios</a></li>
+				<li><a href="#seccion4">Galería</a></li>
+				<li><a href="#seccion5">Contacto</a></li>
+			</ul>
+		</div>
+    </div>
+
+		<div class="banner">
+			<div class="banner-text">
+				<div class="banner-text-items">
+					<h2>Hola!</h2>
+					<p>Sean bienvenidos a la mejor cafeteria y fuente de soda de toda la ciudad de Lima. donde nuestro trabajo es dar buena atención a nuestros clientes en un ambiente cómodo. Disfruta de la variedad de bocaditos dulces y salados hechos artesanalmente con ingredientes de la más alta calidad.</p>
+				</div>
+			</div>
+		</div>
+</section>
+
+<section class="parallax" id="seccion2">		
+	<div class="seccion">
+		<br><br>
+	   <h1>Nosotros</h1><br>
+  </div>		
+
+	<div class="about-area" id="about">
+		<ul class="about-content">
+			<li class="about-left">
+				<img src="img/Gelatina-de-coctel-de-frutas.jpg">
+			</li>
+			<li class="about-right">
+				<p>Nuestra empresa empezó como un pequeño puesto de comida, ubicado en Cercado de lima, que años después se convertiría en uno de los establecimientos más visitados por los comensales que pasaban por ahí. En el "palacio del pan" nuestra especialidad es brindar al los clientes: buena comodidad, buen servicio y sobre todo, productos de la más alta calidad, hechos con los mejores ingredientes del país.</p>
+
+				<h1>Misión</h1>
+				<p>Somos una empresa dedica a la elaboración de productos de panadería y pastelería 100% naturales y artesanales, comprometidos con nuestros clientes en brindarles productos de gran calidad y sabor con un servicio amable y oportuno.</p>
+
+				<h1>Visión</h1>
+				<p>El palacio del pan, es una opción en tortas, pasteles, bocaditos dulces y salados para los diferentes eventos temáticos, estamos innovando constantemente los sabores, diseños y decoraciones, para satisfacer a los clientes. 
+				Nuestros objetivos fundamentales son: Satisfacción del cliente, rentabilidad y crecimiento, con un claro compromiso de mejoramiento continuo en todas las actividades de la empresa.</p>
+			</li>
+		</ul>
+	</div>
+</section>
+
+<section class="parallax" id="seccion3">
+	<div class="seccion">
+		<br><br>
+	   <h1>Servicios</h1><br>
+  </div>
+
+  <div class="envoltura">
+
+	   <div class="articulo1">
+	      <h2 class="titulo">Wifi Libre</h2>
+	      <p>Contamos con servicio de Wifi gratuito a las 24 horas, para que trabajes o conversas mientras disfrutas de tu merienda</p>
+
+	      <div class="marco">
+	      <img src="img/hombre-usando-laptop-cafe_23-2147962617.jpg" alt="">
+	      </div>
+	</div>
+
+	<div class="articulo2">
+	      <h2 class="titulo">Servicio de delivery</h2>
+	      <p>Tambien tenemos un servicio de entragas al domiciilio con todos las medidas de seguridad, para disfrutar de nuestros productos desde tu casa.</p>
+
+	      <div class="marco">
+	      <img src="img/Macarons.jpg" alt="">
+	      </div>
+	</div>
+
+	<div class="articulo3">
+	      <h2 class="titulo">Eventos para fiestas</h2>
+	      <p>Servicio de catering para eventos de gran importancia (bautizos, graduaciones, cotillones, fiestas tematicas, etc.)</p>
+
+	      <div class="marco">
+	      <img src="img/imagen5 (1).jpg" alt="">
+	      </div>
+	</div>
+</div>
+</section>	
+
+<section class="parallax" id="seccion4">
+	<div class="seccion">
+		<br><br>
+	   <h1>Galería</h1>
+  </div>
+	<div id="container">
+		<h1>Esta es nuestra galeria de imagenes donde aquí puede admirar nuestros productos 100% hechos en casa</h1>
+
+		<div class="imagenes">
+			<div class="single-img"><img src="img/ima1.jpg" alt=""></div>		
+			<div class="single-img"><img src="img/ima2.jpg" alt=""></div>
+			<div class="single-img"><img src="img/ima3.jpg" alt=""></div>
+			<div class="single-img"><img src="img/ima4.jpg" alt=""></div>
+			<div class="single-img"><img src="img/ima5.jpg" alt=""></div>
+			<div class="single-img"><img src="img/ima7.jpg" alt=""></div>
+		</div>
+	</div>
+</section>
+
+<section class="parallax" id="seccion5">
+	<div class="seccion">
+		<br><br>
+	   <h1>Contacto</h1>
+  </div>
+	   <div class="wrapper">
+		<div class="form-area">
+		    <div class="img-area">
+		       <div class="left-text">
+		       	<i class="fa fa-map-marker"></i> Dirección
+		       	<p>Av. huaromo 251, cercado de lima</p>
+		       	<i class="fa fa-envelope"></i> Correo
+		       	<p>elpalaciodelpan@hotmail.com</p>
+		       	<p>
+		       		<i class="fa fa-facebook"></i>
+		       		<i class="fa fa-twitter"></i>
+		       		<i class="fa fa-instagram"></i>
+		       	</p>
+		       </div>
+		   </div>
+		   <div class="right-text">
+		   	<h2>Contactenos</h2>
+		   	<input type="text" placeholder="Ingrese su nombre">
+		   	<input type="text" placeholder="Ingrese su correo">
+		   	<textarea cols="30" rows="5" placeholder="ingrese tu mensaje"></textarea>
+		   	<a href="#">enviar</a>
+		   </div>
+		</div>
+	</div>
+
+</section> 
+
+    <footer class="footer">
+		<div class="footer-left">
+			<div class="logo">El palacio del pan</div>
+			<p>Sean bienvenidos a la mejor cafeteria y fuente de soda de toda la ciudad de Lima. donde nuestro trabajo es dar buena atención a nuestros clientes en un ambiente cómodo. </p>
+			<div class="socials">
+				<a href="#"><i class="fa fa-facebook"></i></a>
+				<a href="#"><i class="fa fa-twitter"></i></a>
+				<a href="#"><i class="fa fa-instagram"></i></a>
+				<a href="#"><i class="fa fa-youtube"></i></a>
+			</div>
+		</div>
+		<ul class="footer-right">
+			<li>
+				<h2>enlaces</h2>
+				<ul class="box">
+					<li><a href="#seccion1">Inicio</a></li>
+					<li><a href="#seccion2">Nosotros</a></li>
+					<li><a href="#seccion3">Servicios</a></li>
+					<li><a href="#seccion4">Galeria</a></li>
+					<li><a href="#seccion5">Contacto</a></li>
+				</ul>
+
+			</li>
+			<li>
+				<h2>Dirección</h2>
+				<ul class="box">
+					<li><a href="#">Av, huaromo 245</a></li>
+					<li><a href="#">Cercado de lima</a></li>
+				    <li><a href="#">Lima-perú</a></li>
+					<li><a href="#">elpalaciodelpan@hotmail.com</a></li>
+					<li><a href="#">Telf:78452196</a></li>
+				</ul>
+
+			</li>
+		</ul>
+
+		<div class="footer-bottom">
+			<p>Todos los derchos reservados a ariana rondinel</p>
+		</div>
+	</footer>
+
+</body>
+</html>
